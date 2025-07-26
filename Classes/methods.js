@@ -1,0 +1,46 @@
+class Dooog {
+    constructor(name) {
+        this._name = name;
+        this._behavior = 0;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    get behavior () {
+        return this._behavior;
+    }
+
+    incrementBehavior () {
+        this._behavior++;
+    }
+}
+
+class Sirjohn {
+    constructor(name, department) {
+        this._name = name;
+
+        this._department = department;
+
+        this._remainingVacationDays = 20;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    get department () {
+        return this._department;
+    }
+
+    get remainingVacationDays () {
+        return this._remainingVacationDays;
+    }
+
+    takeVacationDays(daysOff) {
+        this._remainingVacationDays -= daysOff;
+    }
+}
+
+

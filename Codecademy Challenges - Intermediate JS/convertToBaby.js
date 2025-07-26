@@ -10,9 +10,6 @@ function convertToBaby (arr) {
     return newArray;
 }
 
-
-
-
 // When you're ready to test your code, uncomment the below and run:
 
 const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
