@@ -3,7 +3,7 @@ Rooster = {};
 
 // Return a morning rooster call
 Rooster.announceDawn = () => {
-    return 'moo!';
+    return 'Cock-a-doodle-doo!';
 }
 
 // Return hour as string
