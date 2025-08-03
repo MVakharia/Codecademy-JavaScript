@@ -1,3 +1,5 @@
+
+
 let someCondition;
 
 const executorFunction = (resolve, reject) => {
@@ -13,3 +15,55 @@ const executorFunction = (resolve, reject) => {
 
 const myFirstPromise = new Promise(executorFunction);
 
+const inventory = {
+    sunglasses: 1900,
+
+    pants: 1088,
+
+    bags: 1344
+}
+
+const myExecutor = (resolve, reject) => {
+    if(inventory.sunglasses > 0) {
+        resolve('Sunglasses order processed.');
+    }
+    else {
+        reject('That item is sold out.');
+    }
+}
+
+const orderSunglasses = () => new Promise(myExecutor);
+
+let orderPromise = orderSunglasses();
+
+console.log(orderPromise);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//and they still feel oh so wasted on myself.
