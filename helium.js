@@ -25,7 +25,7 @@ class Player {
         return this._balloonCount;
     }
 
-    status () {
+    playerStatus () {
         console.log(`Player: ${this._name} -- Balloons Left: ${this._balloonCount}`)
     }
 }
