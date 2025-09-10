@@ -115,3 +115,8 @@ assert.deepStrictEqual
 Requests and Fetch API
 
 *   Study this topic on W3Schools and write your own code.
+
+### Coding exercises and projects
+
+* Complete 'Workaround Explorer' https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-javascript-syntax-part-iii/modules/wdcp-22-learn-javascript-syntax-modules/projects/es6-modules-workaround off-platform, then refactor it, annotate it, and extend it.
+* 
